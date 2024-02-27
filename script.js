@@ -1,12 +1,7 @@
 //your JS code here. If required.
-document.addEventListener('click', (e) => {
-  if (e.target.tagName === 'INPUT') {
-    e.target.value = '';
-  }
-});
 document.addEventListener('DOMContentLoaded', () => {
-  let inputs = document.querySelectorAll('.code-container input');
-
+  let inputs = document.querySelectorAll('.code');
+  inputs[0].focus(); 
   inputs.forEach((input, index) => {
     input.setAttribute('maxLength', 1);
 
