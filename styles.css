@@ -28,11 +28,15 @@
 	display:flex;
 	gap:10px;
 }
+input::placeholder {
+  color: rgba(169, 169, 169, 0.5); /* Blue color with 50% transparency for the placeholder */
+}
 .code{
 	border:none;
 	text-align:center;
 	color:grey;
 	font-size: 70px;
+	caret-color: transparent;
 	border-radius:5px;
 	/* padding:2%; */
 	box-shadow:1px 1px 3px #ccc;
