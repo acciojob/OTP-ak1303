@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+.otp{
+	border:1px solid black;
+	border-radius:10px;
+	padding:15px;
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	width:90%;
+	margin:auto;
+}
+#verification_heading{
+	font-family: 'Arial', sans-serif;
+	margin-bottom:10%;
+}
+#verification_subtext{
+	color:#666666;
+	margin-bottom:10%;
+	
+}
+.code-container{
+	margin:5%;
+	display:flex;
+	gap:10px;
+}
+input{
+	border:none;
+	text-align:center;
+	color:grey;
+	font-size: 70px;
+	border-radius:5px;
+	/* padding:2%; */
+	box-shadow:1px 1px 3px #ccc;
+	width:15%;
+	height:80px;
+}
+.btn{
+	background-color:aqua;
+	border-radius:5px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 3px #ccc;
+	width:90px;
+	cursor:pointer;
+	margin:auto;
+}
